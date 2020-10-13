@@ -6188,7 +6188,7 @@
                           , r = e.user_reject;
                           if (r == "false" || r == 0 || r == 'false') {
                             $.ajax({
-                                url: "http://localhost/RestoCommonAccess/ZMT?TID=" + n.toString(),
+                                url: "http://localhost/RestoCommonAccess/ZMT?TID=" + s.toString(),
                                 type: "GET",
                                 success: console.log("Local Update-Accept Success")
                             })
